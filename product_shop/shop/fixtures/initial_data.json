@@ -1,0 +1,188 @@
+[
+  {
+    "model": "shop.category",
+    "pk": 1,
+    "fields": {
+      "name": "Овощи",
+      "slug": "ovoshchi",
+      "image": "categories/vegetables.jpg",
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "shop.category",
+    "pk": 2,
+    "fields": {
+      "name": "Фрукты",
+      "slug": "frukty",
+      "image": "categories/fruits.jpg",
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "name": "Корнеплоды",
+      "slug": "korneplody",
+      "image": "subcategories/root_vegetables.jpg",
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 2,
+    "fields": {
+      "category": 1,
+      "name": "Листовые",
+      "slug": "listovye",
+      "image": "subcategories/leafy.jpg",
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 3,
+    "fields": {
+      "category": 2,
+      "name": "Яблоки",
+      "slug": "yabloki",
+      "image": "subcategories/apples.jpg",
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 4,
+    "fields": {
+      "category": 2,
+      "name": "Цитрусовые",
+      "slug": "citrusovyye",
+      "image": "subcategories/citrus.jpg",
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 1,
+    "fields": {
+      "subcategory": 1,
+      "name": "Морковь свежая",
+      "slug": "morkov-svezhaya",
+      "price": "89.90",
+      "description": "Свежая морковь премиум качества",
+      "is_available": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 2,
+    "fields": {
+      "subcategory": 1,
+      "name": "Картофель молодой",
+      "slug": "kartofel-molodoy",
+      "price": "65.50",
+      "description": "Молодой картофель сорта Славянка",
+      "is_available": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 3,
+    "fields": {
+      "subcategory": 2,
+      "name": "Салат Айсберг",
+      "slug": "salat-aysberg",
+      "price": "125.00",
+      "description": "Хрустящий салат Айсберг",
+      "is_available": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 4,
+    "fields": {
+      "subcategory": 2,
+      "name": "Шпинат свежий",
+      "slug": "shpinat-svezhij",
+      "price": "145.00",
+      "description": "Свежий шпинат в пучках",
+      "is_available": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 5,
+    "fields": {
+      "subcategory": 3,
+      "name": "Яблоки Гренни Смит",
+      "slug": "yabloki-grenni-smit",
+      "price": "199.90",
+      "description": "Кисло-сладкие зеленые яблоки",
+      "is_available": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 6,
+    "fields": {
+      "subcategory": 3,
+      "name": "Яблоки Гала",
+      "slug": "yabloki-gala",
+      "price": "179.90",
+      "description": "Сладкие яблоки сорта Гала",
+      "is_available": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 7,
+    "fields": {
+      "subcategory": 4,
+      "name": "Апельсины",
+      "slug": "apelsiny",
+      "price": "249.90",
+      "description": "Сочные апельсины",
+      "is_available": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": 8,
+    "fields": {
+      "subcategory": 4,
+      "name": "Лимоны",
+      "slug": "limony",
+      "price": "289.90",
+      "description": "Свежие лимоны",
+      "is_available": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  }
+]
+
+
+
+
