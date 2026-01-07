@@ -241,8 +241,3 @@ curl -X DELETE http://localhost:8000/api/v1/cart/CART_ID/ \
 **ReDoc**: http://localhost:8000/api/schema/redoc/
 
 После запуска сервера (`python manage.py runserver`) откройте любую из этих ссылок в браузере для просмотра интерактивной документации API.
-
-## Лицензия
-
-Проект создан в учебных целях.
-
